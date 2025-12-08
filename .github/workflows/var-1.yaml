@@ -17,10 +17,10 @@ jobs:
       level: job
     steps:
     - name: check env
-      run: echo "LEVEL ${{ env.level }}"
+      run: echo "LEVEL ${{ env.level }}" 
 
   get-env-3:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     env:
       level: job
     steps:
